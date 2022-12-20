@@ -7,6 +7,8 @@ function encabezado(){
     document.querySelector('body').appendChild(encabezado)
     console.log(document.getElementById('encabezado').classList)
 
+    contenedor.innerHTML += `<h1 id="encabezado">Soy un encabezado 2.0</h1>´
+
 }
 
 function parrafo(){
