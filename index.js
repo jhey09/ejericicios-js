@@ -1,5 +1,5 @@
 
-function encabezado(){
+/*function encabezado(){
     let encabezado = document.createElement('h1')
     let texto = document.createTextNode('soy un encabezado')
     encabezado.appendChild(texto)
@@ -7,7 +7,7 @@ function encabezado(){
     document.querySelector('body').appendChild(encabezado)
     console.log(document.getElementById('encabezado').classList)
 
-    contenedor.innerHTML += `<h1 id="encabezado">Soy un encabezado 2.0</h1>´
+    contenedor.innerHTML += `<h1 id="encabezado">Soy un encabezado 2.0</h1>`
 
 }
 
@@ -20,4 +20,21 @@ function parrafo(){
     console.log(document.getElementById('parrafo').classList)
 
 
-}
+}*/
+
+
+function color() {
+    let container = document.getElementById('container')
+    container.style.backgroundColor = 'red'
+  }
+  
+  function tam() {
+    let container = document.getElementById('container')
+    container.style.width = '500px'
+    container.style.height = '500px'
+  }
+  
+  function borde() {
+    let container = document.getElementById('container')
+    container.style.border = '5px solid black'
+  }
